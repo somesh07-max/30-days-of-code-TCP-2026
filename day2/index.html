@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <h1>Tech Conference 2026 - Event Schedule & Registration</h1>
+
+    <!-- tabel section -->
+
+    <table border="2" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Venue</th>
+          </tr>
+        </thead>
+
+        <!-- body -->
+         <tbody>
+            <tr>
+                <th>09:00 AM - 10:00 AM</th>
+                <th>Opening Ceremony</th>
+                <th>Main Hall</th>
+            </tr>
+            <tr>
+                <th>10:30 AM - 12:00 AM</th>
+                <th>Development Workshop</th>
+                <th>Room A</th>
+            </tr>
+            <tr>
+                <th>01:00 PM - 03:00 PM</th>
+                <th>AI & Machine Learning Session</th>
+                <th>Room B</th>
+            </tr>
+         </tbody>
+    </table>
+
+<br><br>
+    <!-- ====================================================================== -->
+
+
+
+    <!-- Form Section -->
+
+
+    <!-- ========================================================== -->
+
+    <h1>Registeration Form</h1>
+    <!-- form section -->
+     <table>
+    <form action="/" method="post">
+        <table cellpadding="10">
+        <!-- name -->
+         <tr>
+            <th><label for="Name">Full Name : </label></th>
+            <th><input type="text" id="Name"  required></th>
+         </tr>
+
+        <br>
+        <br>
+        <!-- email -->
+         <tr>
+            <th><label for="email">Email Address :</label></th>
+            <th> <input type="text" id="email" required></th>
+         </tr>
+
+        <!-- number -->
+
+        <tr>
+            <th><label for="number">Mobile NO. :</label></th>
+            <th> <input type="text" id="number" required></th>
+        </tr>
+
+
+        <!-- date -->
+
+        <tr>
+            <th><label for="eventDate">Event Date:</label></th>
+            <th> <input type="text" id="eventDate" required></th>
+        </tr>
+
+
+        </table>
+
+        <!-- radio buttons -->
+
+        <h3>Ticket Type :</h3>
+
+        <input type="radio" id="standard" required>
+        <label for="standard" >Standard</label>
+        <br>
+        <input type="radio" id="premium" required>
+        <label for="premium" >Premium</label>
+        <br>
+        <input type="radio" id="VIP" required>
+        <label for="VIP" >VIP</label>
+            
+
+        <!-- checkbox -->
+        <br>
+        <h3>Workshop Preference :</h3>
+
+        <input type="checkbox" id="html" name="workshop" value="html">
+        <label for="html">HTML & CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="workshop" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="ai" name="workshop" value="ai">
+        <label for="ai">AI & ML</label><br><br>
+
+        <!-- text area -->
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <!-- submit -->
+        <button type="submit">Register</button>
+    </form>
+
+   
+    
+</body>
+</html>
