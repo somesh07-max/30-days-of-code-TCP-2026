@@ -10,5 +10,9 @@ Day :1 Task output images
 ![image alt](https://github.com/somesh07-max/30-days-of-code-TCP-2026/blob/ea43525238fec8864726053f5431ed66f274d863/Screenshot%202026-01-01%20142735.png)
 
 
+Day : 2 Task output images
+https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/4b8d622ed992ddcaded3237c7fae4454c12c18cd/images/day%202
+
+
 
 
