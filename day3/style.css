@@ -1,0 +1,161 @@
+/*     css reset   */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f2933;
+  --bg-color: #f9fafb;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+body{
+    background-color: var(--bg-color);
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* upperSection */
+#upperSection{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    gap:40rem;
+    
+}
+header {
+  
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+}
+
+nav a {
+    font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 1000;
+  position: relative;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+
+main{
+    margin-top: 2rem;
+    width: 90vw;
+    margin-left: 2rem;
+    
+}
+
+#int{
+    width: 16%;
+    /* height: 20px; */
+    box-shadow: 2px 2px 2px black ;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#int:hover{
+    background-color: #2563eb;
+    color: #e5e7eb;
+    box-shadow: 2px 2px 2px black ;
+    text-align: center;
+    
+
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+
+#skill-heading{
+     width: 16%;
+    /* height: 20px; */
+    box-shadow: 2px 2px 2px black ;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#skill-heading:hover{
+    background-color: #2563eb;
+    color: #e5e7eb;
+    box-shadow: 2px 2px 2px black ;
+    text-align: center;
+}
+
+#skills{
+    width:60vw;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: 5px 2px 2px black ;
+    
+}
+#skill-list{
+    margin-left: 3rem;
+}
+#projects-Sec{
+    margin-top: 2rem;
+}
+#project-head{
+    width: 16%;
+    /* height: 20px; */
+    box-shadow: 2px 2px 2px black ;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#project-head:hover{
+    background-color: #2563eb;
+    color: #e5e7eb;
+    box-shadow: 2px 2px 2px black ;
+    text-align: center;
+}
+
+#Video-head{
+    width: 16%;
+    /* height: 20px; */
+    box-shadow: 2px 2px 2px black ;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#Video-head:hover{
+    background-color: #2563eb;
+    color: #e5e7eb;
+    box-shadow: 2px 2px 2px black ;
+    text-align: center;
+}
+#Vid-Sec{
+    margin-top: 2rem;
+}
