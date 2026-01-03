@@ -14,5 +14,8 @@ Day : 2 Task output images
 https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/4b8d622ed992ddcaded3237c7fae4454c12c18cd/images/day%202
 
 
+Day : 3  Task outut images
+https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/0dafcf7f175e9a1f2c40dedc10eca58dc07d00f7/images/day%202/day3
+
 
 
