@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.app {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(14px);
+    padding: 2rem 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 330px;
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.status {
+    margin-bottom: 1.2rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 16px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.25s ease, all 0.3s;
+}
+
+.cell:hover {
+    transform: scale(1.08);
+    background: rgba(255,255,255,0.25);
+}
+
+.cell.win {
+    background: #00ffcc;
+    color: #111;
+    animation: pulse 0.7s infinite alternate;
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.15); }
+}
+
+button {
+    background: #ffffff;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #00ffcc;
+    transform: translateY(-2px);
+}
+
+.confetti {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.confetti.show {
+    opacity: 1;
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.confetti circle {
+    fill: #00ffcc;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0); }
+}
