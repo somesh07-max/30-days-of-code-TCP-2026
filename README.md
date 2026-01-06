@@ -17,5 +17,15 @@ https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/4b8d622ed992ddcade
 Day : 3  Task outut images
 https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/0dafcf7f175e9a1f2c40dedc10eca58dc07d00f7/images/day%202/day3
 
+Day : 4 Task output images
+https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/c3d8b29aff074fdba0c670695edbcc00b11e43b9/images/day%202/day4
+
+Day : 5 task output images
+https://github.com/somesh07-max/30-days-of-code-TCP-2026/tree/c3d8b29aff074fdba0c670695edbcc00b11e43b9/images/day%202/day5
+
+Day : 6task output image
+![images alt](https://github.com/somesh07-max/30-days-of-code-TCP-2026/blob/b07cf6a3553d39bfa851f0d3f2474c1754ff8b46/Screenshot%202026-01-06%20190647.png)
+
+
 
 
