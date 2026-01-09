@@ -27,5 +27,13 @@ Day : 6task output image
 ![images alt](https://github.com/somesh07-max/30-days-of-code-TCP-2026/blob/b07cf6a3553d39bfa851f0d3f2474c1754ff8b46/Screenshot%202026-01-06%20190647.png)
 
 
+Day : 7 task output image
+![images alt](https://github.com/somesh07-max/30-days-of-code-TCP-2026/blob/2cdb081c26001620bad5dbcb4d692bd5d6de3a0e/Screenshot%202026-01-07%20181156.png)
+
+
+Day : 8 task output image
+![images alt](https://github.com/somesh07-max/30-days-of-code-TCP-2026/blob/fe0c3204aeb24eb7c089ccae58e5ff820b0c8ae9/Screenshot%202026-01-08%20080059.png)
+
+
 
 
